@@ -12,7 +12,7 @@ I created this for creating morphs for Reallusion Character Creator Software and
 Blender_Batch_ShapeKey_Export.py - is for exporting all the Shapekeys in a Blender object in a obj format. The formating is focus on creating custom morphs for Reallusion Character Creator 3.
 
 Usage:
-Save your blender file before running the script being that the script locates the current working directory and create a new directory for storing the new exported Shape Keys. 
+Save your blender file before running the script being that the script locates the current working directory and create a new directory for storing the new exported Shape Keys. Unsaved Blender project will cause the script to attempt to create a new direction in the Blender Programs folder which will fail.
 Select the object that you would like to export shape keys. If you run the script more than once it will overwrite anything in the directory created. 
 
 Blender_Bach_ShapeKey_Transfer.py - is for transfering all the Shapekeys in a Blender object to another object with the same vertices as the original object. This tool was built
